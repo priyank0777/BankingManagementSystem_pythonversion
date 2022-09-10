@@ -1,6 +1,6 @@
 import mysql.connector as ms
 
-con = ms.connect(host="localhost", user="root", passwd="true@1234star", database="banking")
+con = ms.connect(host="localhost", user="root", passwd="useyourownpassword", database="banking")
 if con.is_connected():
     print("Connection Established")
 else:
